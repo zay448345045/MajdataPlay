@@ -1,0 +1,46 @@
+{
+    "name": "IO4InputAction",
+    "maps": [
+        {
+            "name": "Play",
+            "id": "3cf79ef2-17ea-45d7-93f2-86d3c5cde6e0",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "PassThrough",
+                    "id": "1163a0fd-1d2e-487a-8032-f39adb051cf7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1cde80cb-f832-4c3c-bad7-8be27e630550",
+                    "path": "<HID::SEGA INTERACTIVE I/O CONTROL BD;15257   ;01;91;3EEE;6679B;00;GOUT=14_ADIN=8,E_ROTIN=4_COININ=2_SWIN=2,E_UQ1=41,6;>/button16",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "IO4",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "IO4",
+            "bindingGroup": "IO4",
+            "devices": [
+                {
+                    "devicePath": "<HID::SEGA INTERACTIVE I/O CONTROL BD;15257   ;01;91;3EEE;6679B;00;GOUT=14_ADIN=8,E_ROTIN=4_COININ=2_SWIN=2,E_UQ1=41,6;>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

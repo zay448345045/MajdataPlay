@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -664,6 +663,69 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &881490842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 43995176099355728, guid: 0f07ea5fd12102446b80ad9e1bf9d72e, type: 3}
+  m_PrefabInstance: {fileID: 1853453157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &881490848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881490842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 46ccfbaa16115a045a4298f77f2b063b, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 881490849}
+        m_TargetAssemblyTypeName: IO4Test, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1163a0fd-1d2e-487a-8032-f39adb051cf7
+    m_ActionName: Play/Click[/SEGA INTERACTIVE I O CONTROL BD;15257   ;01;91;3EEE;6679B;00;GOUT=14_ADIN=8,E_ROTIN=4_COININ=2_SWIN=2,E_UQ1=41,6;/button16]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Play
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &881490849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881490842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bec3f2c97d4c74ea667070395ed483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &969494141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,7 +1723,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 43995176099355728, guid: 0f07ea5fd12102446b80ad9e1bf9d72e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 881490849}
+    - targetCorrespondingSourceObject: {fileID: 43995176099355728, guid: 0f07ea5fd12102446b80ad9e1bf9d72e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 881490848}
   m_SourcePrefab: {fileID: 100100000, guid: 0f07ea5fd12102446b80ad9e1bf9d72e, type: 3}
 --- !u!1 &1930011180
 GameObject:
